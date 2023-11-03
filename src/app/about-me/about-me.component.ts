@@ -8,6 +8,8 @@ const description: string = "Hello there! I'm Tuli, a proud husband and father, 
                             "I'm often recognized for my hardworking and independent nature, I excel as both a good listener and a valuable team member. " +
                             "With a deep interest in technology and a commitment to excellence, " +
                             "I am poised to make significant contributions in the field of software engineering.";
+
+const aboutMeHeader: string = "ABOUT ME";
 export interface SkillsColumn {
   col_one: string;
   col_two: string;
@@ -30,4 +32,5 @@ const skills: SkillsColumn[] = [
 export class AboutMeComponent {
   dataSource = skills;
   description = description;
+  aboutMeHeader = aboutMeHeader;
 }
