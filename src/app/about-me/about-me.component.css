@@ -1,0 +1,68 @@
+.about-wrapper {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.about-header-wrapper {
+  padding-top: 3vh;
+  text-align: center;
+  height: 70%;
+  width: 80%;
+  border: 1px solid #213E60;
+  box-shadow: 15px 15px #69acc2;
+  border-radius: 10px;
+  /* background-color: #cdb896; */
+  overflow: auto;
+  font-size: xx-large;
+  color: grey;
+}
+  
+.about-me-th {
+  visibility: hidden;
+}
+
+.about {
+  display: flex;
+  margin-top: -10vh;
+}
+  
+.skills {
+  flex: 1;
+  max-width: 90%;
+  text-align: center;
+}
+  
+.description {
+  flex: 1;
+  max-width: 90%;
+  padding-top: 20vh;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  text-align: center;
+  font-size: large;
+  line-height: 150%;
+  color: #213E60;
+}
+
+.skills-table {
+  border-collapse: separate;
+  border-spacing: 10px;
+  padding: 5vh;
+  background: transparent;
+}
+  
+th, td {
+  border: 5px solid #213E60;
+  border-radius: 30px;
+  text-align: center;
+  width: 30%;
+}
+
+.about-header {
+  text-align: center;
+  
+}
+  
+  
