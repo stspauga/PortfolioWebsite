@@ -1,1 +1,32 @@
-<p>about-me works!</p>
+<div class="about-wrapper">
+    <div class="about">
+      <div class="skills">
+        <table mat-table [dataSource]= "dataSource" class="skills-table">
+            <ng-container matColumnDef="colOne">
+                <th mat-header-cell *matHeaderCellDef class="about-me-th"></th>
+                <td mat-cell *matCellDef= "let skill">{{ skill.col_one }}</td>
+            </ng-container>
+            <ng-container matColumnDef="colTwo">
+                <th mat-header-cell *matHeaderCellDef class="about-me-th"></th>
+                <td mat-cell *matCellDef= "let skill">{{ skill.col_two }}</td>
+            </ng-container>
+            <ng-container matColumnDef="colThree">
+                <th mat-header-cell *matHeaderCellDef class="about-me-th"></th>
+                <td mat-cell *matCellDef= "let skill">{{ skill.col_three }}</td>
+            </ng-container>
+    
+            <tr mat-header-row *matHeaderRowDef="['colOne', 'colTwo', 'colThree']"></tr>
+            <tr mat-row *matRowDef="let row; columns: ['colOne', 'colTwo', 'colThree']"></tr>
+      
+      
+          
+        </table>
+      </div>
+      <div class="description">
+        <span>
+          {{ description }}
+        </span>
+      </div>
+    </div>
+  </div>
+  
