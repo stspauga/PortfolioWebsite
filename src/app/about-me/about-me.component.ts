@@ -1,7 +1,13 @@
 import { Component } from '@angular/core';
 
-const description: string = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
-
+const description: string = "Hello there! I'm Tuli, a proud husband and father, " + 
+                            "currently a senior at ASU on the path to earning my software engineering degree. " +
+                            "I am proficient in Python, Java, C/C++, and various web frameworks, " +
+                            "I have a solid foundation in data structures and algorithms. " +
+                            "My passion lies in using these skills to automate code and drive advancements in AI/ML research. " +
+                            "I'm often recognized for my hardworking and independent nature, I excel as both a good listener and a valuable team member. " +
+                            "With a deep interest in technology and a commitment to excellence, " +
+                            "I am poised to make significant contributions in the field of software engineering.";
 export interface SkillsColumn {
   col_one: string;
   col_two: string;
