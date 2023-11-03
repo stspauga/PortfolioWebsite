@@ -5,11 +5,13 @@ import { AppComponent } from './app.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTableModule } from '@angular/material/table';
+import { HelloComponent } from './hello/hello.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    HelloComponent
   ],
   imports: [
     MatTableModule,
