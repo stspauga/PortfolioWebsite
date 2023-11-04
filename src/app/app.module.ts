@@ -9,12 +9,14 @@ import { HelloComponent } from './hello/hello.component';
 import { FaIconLibrary, FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faBars as faS} from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn as LinkedinIn, faGithubSquare as GitHubSq, faFacebookSquare as FBSq, faInstagramSquare as ISq } from '@fortawesome/free-brands-svg-icons';
+import { JumbotronComponent } from './jumbotron/jumbotron.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutMeComponent,
-    HelloComponent
+    HelloComponent,
+    JumbotronComponent
   ],
   imports: [
     FontAwesomeModule,

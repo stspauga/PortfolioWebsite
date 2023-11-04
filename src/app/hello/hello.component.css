@@ -7,8 +7,24 @@
 }
 
 .navbar {
+    transition-duration: .5s;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    
+}
+
+.navbar-scrolled {
+    transition-duration: .5s;
     background-color: #4f4f4f;
-    opacity: .5;
+    padding-top: 0vh;
+    padding-bottom: 0vh;
+    color: white;
+}
+
+.nav-link-scrolled {
+    color: white;
+    padding-left: 2vh;
+    padding-right: 2vh;
 }
 
 
