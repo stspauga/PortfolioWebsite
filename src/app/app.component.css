@@ -1,3 +1,16 @@
 body {
     background-color: #FAF9F6;
 }
+
+app-hello {
+    position: relative;
+  }
+  
+  app-jumbotron {
+    position: absolute;
+    margin-left: 10vh;
+    margin-top: 20vh;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Ensure jumbotron is above hello */
+  }
