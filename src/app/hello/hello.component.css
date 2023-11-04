@@ -6,3 +6,9 @@
     object-fit: cover;
 }
 
+.navbar {
+    background-color: #4f4f4f;
+    opacity: .5;
+}
+
+

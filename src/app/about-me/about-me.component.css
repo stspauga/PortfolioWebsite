@@ -3,17 +3,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
 
 .about-header-wrapper {
-  padding-top: 3vh;
+  padding-top: 5vh;
   text-align: center;
-  height: 70%;
+  height: 80%;
   width: 80%;
   border: 1px solid #213E60;
   box-shadow: 15px 15px #69acc2;
   border-radius: 10px;
-  /* background-color: #cdb896; */
+  background-color: #FAF9F6;
   overflow: auto;
   font-size: xx-large;
   color: grey;
