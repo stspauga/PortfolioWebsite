@@ -9,7 +9,7 @@ app-hello {
   app-jumbotron {
     position: absolute;
     margin-left: 10vh;
-    margin-top: 20vh;
+    margin-top: 25vh;
     top: 0;
     left: 0;
     z-index: 1; /* Ensure jumbotron is above hello */
