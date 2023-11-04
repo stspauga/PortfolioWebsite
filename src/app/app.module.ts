@@ -10,13 +10,15 @@ import { FaIconLibrary, FontAwesomeModule } from '@fortawesome/angular-fontaweso
 import { faBars as faS} from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn as LinkedinIn, faGithubSquare as GitHubSq, faFacebookSquare as FBSq, faInstagramSquare as ISq } from '@fortawesome/free-brands-svg-icons';
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
+import { CurrentJobComponent } from './current-job/current-job.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutMeComponent,
     HelloComponent,
-    JumbotronComponent
+    JumbotronComponent,
+    CurrentJobComponent
   ],
   imports: [
     FontAwesomeModule,

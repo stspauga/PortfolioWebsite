@@ -1,0 +1,11 @@
+#currentWorkWrapper {
+    max-height: 20vh;
+    max-width: 40vh;
+    background-color: white;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.jobImg {
+    max-width: 40vh;
+}
