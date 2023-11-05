@@ -1,22 +1,48 @@
 .currentWorkWrapper {
-    max-width: 40vh;
-    background-color: white;
-    border-radius: 30px;
-    background-color: #DDDBDA;
-    padding: 4vh;
-    margin-left: 30vh;
-    text-align: center;
-    box-shadow: 15px 15px #213E60;
+    min-height: 30vh;
+    width: 80%;
+    margin: auto;
+    margin-top: 5vh;
+    color: white;
+    margin-bottom: 10vh;
 }
+
+.current-header {
+    margin-top: 3vh;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+}
+
+.current-header hr {
+    display: inline-block;
+    width: 15vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    border-top: 5px solid black; 
+}
+
+.description {
+    text-align: center;
+    font-size: large;
+    line-height: 150%;
+    margin-top: 5vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+  }
 
 .jobImg {
     margin-bottom: 2vh;
     max-width: 32vh;
     border-radius: 10px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 5vh;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .jobImg:hover {
-    transition-duration: .3s;
     transform: scale(1.1);
     box-shadow: 10px 10px grey;
 }

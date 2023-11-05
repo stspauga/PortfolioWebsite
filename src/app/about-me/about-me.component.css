@@ -1,12 +1,8 @@
 .about-wrapper {
-    height: 30vh;
-    border: 1px solid #213E60;
-    box-shadow: 15px 15px #69acc2;
-    border-radius: 10px;
+    min-height: 30vh;
     width: 80%;
     margin: auto;
-    margin-top: 10vh;
-    background-color: #213E60;
+    margin-top: 5vh;
     color: white;
     margin-bottom: 10vh;
 }
@@ -20,7 +16,7 @@
 
 .about-header hr {
   display: inline-block;
-  width: 50vh;
+  width: 15vh;
   margin-left: 2vh;
   margin-right: 2vh;
   border-top: 5px solid black; 
@@ -34,25 +30,13 @@
   padding-left: 5vh;
   padding-right: 5vh;
 }
-
-.about-header hr {
-  display: inline-block;
-  width: 50vh;
-  margin-left: 2vh;
-  margin-right: 2vh;
-  border-top: 5px solid black; 
-}
-
-/* .about-me-th {
-  visibility: hidden;
-}
   
-.skills {
+/* .skills {
   flex: 1;
   max-width: 90%;
   text-align: center;
-}
-   */
+} */
+  
 
 
 /* .skills-table {

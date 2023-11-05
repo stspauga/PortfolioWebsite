@@ -7,6 +7,7 @@ const currentWork: string = "I am currently a software engineer intern at the US
                             "React, Next.js, Typescript, SQL, and Docker. " +
                             "Click on the icon above to see the home page of the ERDC.";
 
+const currentHeader: string = "Current Employment";
 @Component({
   selector: 'app-current-job',
   templateUrl: './current-job.component.html',
@@ -14,4 +15,5 @@ const currentWork: string = "I am currently a software engineer intern at the US
 })
 export class CurrentJobComponent {
   currentWork = currentWork;
+  currentHeader = currentHeader;
 }

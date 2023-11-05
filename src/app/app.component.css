@@ -3,20 +3,30 @@ body {
 }
 
 .app-container {
-  background-color: #e5d3b3;
+  background-color: #a89c80;
 }
 
 app-hello {
     position: relative;
-  }
-  
+}
+
+.about {
+  background-color: #9d8770;
+}
+
+.current {
+  background-color: #606546;
+}
+
 app-jumbotron {
   position: absolute;
   margin-left: 15vh;
-  margin-top: 20vh;
+  margin-top: 25vh;
   top: 0;
   left: 0;
   z-index: 1; /* Ensure jumbotron is above hello */
+  max-width: 60vh;
+  
 }
 
 
