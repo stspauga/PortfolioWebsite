@@ -4,7 +4,8 @@ const currentWork: string = "I am currently a software engineer intern at the US
                             "Engineer Research and Development Center Website " +
                             "(EDRC), where I create web applications for various clients and third party " +
                             "affiliates. Listed here are just a few of the many frameworks and technologies I use: " +
-                            "React, Next.js, Typescript, SQL, and Docker.";
+                            "React, Next.js, Typescript, SQL, and Docker. " +
+                            "Click on the icon above to see the home page of the ERDC.";
 
 @Component({
   selector: 'app-current-job',

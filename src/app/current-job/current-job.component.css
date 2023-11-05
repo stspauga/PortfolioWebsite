@@ -1,11 +1,22 @@
-#currentWorkWrapper {
-    max-height: 20vh;
+.currentWorkWrapper {
     max-width: 40vh;
     background-color: white;
     border-radius: 30px;
-    display: inline-block;
+    background-color: #DDDBDA;
+    padding: 4vh;
+    margin-left: 30vh;
+    text-align: center;
+    box-shadow: 15px 15px #213E60;
 }
 
 .jobImg {
-    max-width: 40vh;
+    margin-bottom: 2vh;
+    max-width: 32vh;
+    border-radius: 10px;
+}
+
+.jobImg:hover {
+    transition-duration: .3s;
+    transform: scale(1.1);
+    box-shadow: 10px 10px grey;
 }

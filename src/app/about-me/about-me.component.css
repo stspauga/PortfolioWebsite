@@ -1,31 +1,50 @@
 .about-wrapper {
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+    height: 30vh;
+    border: 1px solid #213E60;
+    box-shadow: 15px 15px #69acc2;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10vh;
+    background-color: #213E60;
+    color: white;
+    margin-bottom: 10vh;
+}
 
-.about-header-wrapper {
-  padding-top: 5vh;
-  text-align: center;
-  height: 80%;
-  width: 80%;
-  border: 1px solid #213E60;
-  box-shadow: 15px 15px #69acc2;
-  border-radius: 10px;
-  background-color: #FAF9F6;
-  overflow: auto;
+.about-header {
+  margin-top: 3vh;
   font-size: xx-large;
-  color: grey;
-}
-  
-.about-me-th {
-  visibility: hidden;
+  text-align: center;
+  color: white;
 }
 
-.about {
-  display: flex;
-  margin-top: -10vh;
+.about-header hr {
+  display: inline-block;
+  width: 50vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  border-top: 5px solid black; 
+}
+
+.description {
+  text-align: center;
+  font-size: large;
+  line-height: 150%;
+  margin-top: 5vh;
+  padding-left: 5vh;
+  padding-right: 5vh;
+}
+
+.about-header hr {
+  display: inline-block;
+  width: 50vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  border-top: 5px solid black; 
+}
+
+/* .about-me-th {
+  visibility: hidden;
 }
   
 .skills {
@@ -33,20 +52,10 @@
   max-width: 90%;
   text-align: center;
 }
-  
-.description {
-  flex: 1;
-  max-width: 90%;
-  padding-top: 20vh;
-  padding-left: 10vh;
-  padding-right: 10vh;
-  text-align: center;
-  font-size: large;
-  line-height: 150%;
-  color: #213E60;
-}
+   */
 
-.skills-table {
+
+/* .skills-table {
   border-collapse: separate;
   border-spacing: 10px;
   padding: 5vh;
@@ -54,15 +63,13 @@
 }
   
 th, td {
-  border: 5px solid #213E60;
+  border: 2px solid white;
   border-radius: 30px;
   text-align: center;
   width: 30%;
-}
+  color: white;
+} */
 
-.about-header {
-  text-align: center;
-  
-}
+
   
   
