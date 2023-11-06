@@ -12,6 +12,10 @@ import { faLinkedinIn as LinkedinIn, faGithubSquare as GitHubSq, faFacebookSquar
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
 import { CurrentJobComponent } from './current-job/current-job.component';
 import { SkillsComponent } from './skills/skills.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { HomeComponent } from './home/home.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,12 @@ import { SkillsComponent } from './skills/skills.component';
     HelloComponent,
     JumbotronComponent,
     CurrentJobComponent,
-    SkillsComponent
+    SkillsComponent,
+    ExperienceComponent,
+    PageNotFoundComponent,
+    HomeComponent,
+    NavbarComponent,
+    SkillsComponent,
   ],
   imports: [
     FontAwesomeModule,

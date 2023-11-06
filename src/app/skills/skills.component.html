@@ -3,6 +3,9 @@
         <hr>{{skillsHeader}}<hr>
     </div>
     <div class="skills-table-wrapper">
-        <div *ngFor= "let skill of skills" class="skills">{{ skill }}</div>
+        <div class="row">
+            <div *ngFor= "let skill of skills; let i = index" class="skills col-md-3">{{ skill }}</div>
+        </div>
     </div>
 </div>
+

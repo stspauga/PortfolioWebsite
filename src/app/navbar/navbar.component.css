@@ -1,0 +1,31 @@
+.navbar {
+    transition-duration: .5s;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-scrolled {
+    transition-duration: .5s;
+    background-color: black;
+    padding-top: 0vh;
+    padding-bottom: 0vh;
+}
+
+.nav-link-scrolled {
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+.nav-item {
+    margin-right: 4vh;
+    margin-left: 3vh;
+    font-size: 3vh;
+}
+
+#navbar a.nav-link {
+    color: white !important;
+}
