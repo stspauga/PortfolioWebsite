@@ -28,7 +28,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     ExperienceComponent,
     PageNotFoundComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    SkillsComponent,
   ],
   imports: [
     FontAwesomeModule,
