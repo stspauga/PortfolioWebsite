@@ -12,6 +12,7 @@ import { faLinkedinIn as LinkedinIn, faGithubSquare as GitHubSq, faFacebookSquar
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
 import { CurrentJobComponent } from './current-job/current-job.component';
 import { SkillsComponent } from './skills/skills.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SkillsComponent } from './skills/skills.component';
     HelloComponent,
     JumbotronComponent,
     CurrentJobComponent,
-    SkillsComponent
+    SkillsComponent,
+    ExperienceComponent
   ],
   imports: [
     FontAwesomeModule,
