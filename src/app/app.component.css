@@ -1,16 +1,30 @@
 body {
-    background-color: #FAF9F6;
+    font-family: 'Raleway', sans-serif;
+}
+
+.app-container {
+  background-color: #a89c80;
 }
 
 app-hello {
     position: relative;
-  }
-  
-  app-jumbotron {
-    position: absolute;
-    margin-left: 10vh;
-    margin-top: 25vh;
-    top: 0;
-    left: 0;
-    z-index: 1; /* Ensure jumbotron is above hello */
-  }
+}
+
+.about {
+  background-color: #9d8770;
+}
+
+.current {
+  background-color: #606546;
+}
+
+app-jumbotron {
+  position: absolute;
+  margin-left: 15vh;
+  margin-top: 25vh;
+  top: 0;
+  left: 0;
+  z-index: 1; /* Ensure jumbotron is above hello */
+  max-width: 60vh;
+}
+

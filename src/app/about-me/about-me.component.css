@@ -1,68 +1,33 @@
 .about-wrapper {
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-.about-header-wrapper {
-  padding-top: 5vh;
-  text-align: center;
-  height: 80%;
-  width: 80%;
-  border: 1px solid #213E60;
-  box-shadow: 15px 15px #69acc2;
-  border-radius: 10px;
-  background-color: #FAF9F6;
-  overflow: auto;
-  font-size: xx-large;
-  color: grey;
-}
-  
-.about-me-th {
-  visibility: hidden;
-}
-
-.about {
-  display: flex;
-  margin-top: -10vh;
-}
-  
-.skills {
-  flex: 1;
-  max-width: 90%;
-  text-align: center;
-}
-  
-.description {
-  flex: 1;
-  max-width: 90%;
-  padding-top: 20vh;
-  padding-left: 10vh;
-  padding-right: 10vh;
-  text-align: center;
-  font-size: large;
-  line-height: 150%;
-  color: #213E60;
-}
-
-.skills-table {
-  border-collapse: separate;
-  border-spacing: 10px;
-  padding: 5vh;
-  background: transparent;
-}
-  
-th, td {
-  border: 5px solid #213E60;
-  border-radius: 30px;
-  text-align: center;
-  width: 30%;
+    min-height: 30vh;
+    width: 80%;
+    margin: auto;
+    margin-top: 5vh;
+    color: white;
+    margin-bottom: 10vh;
 }
 
 .about-header {
+  margin-top: 3vh;
+  font-size: xx-large;
   text-align: center;
-  
+  color: white;
 }
-  
+
+.about-header hr {
+  display: inline-block;
+  width: 15vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  border-top: 5px solid black; 
+}
+
+.description {
+  text-align: center;
+  font-size: large;
+  line-height: 150%;
+  margin-top: 5vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+}
   

@@ -9,7 +9,8 @@ const description: string = "Hello there! I'm Tuli, a proud husband and father, 
                             "With a deep interest in technology and a commitment to excellence, " +
                             "I am poised to make significant contributions in the field of software engineering.";
 
-const aboutMeHeader: string = "ABOUT ME";
+const aboutMeHeader: string = "About Me";
+
 export interface SkillsColumn {
   col_one: string;
   col_two: string;
@@ -27,10 +28,11 @@ const skills: SkillsColumn[] = [
 @Component({
   selector: 'app-about-me',
   templateUrl: './about-me.component.html',
-  styleUrls: ['./about-me.component.css']
+  styleUrls: ['./about-me.component.css'],
 })
 export class AboutMeComponent {
   dataSource = skills;
   description = description;
   aboutMeHeader = aboutMeHeader;
+  
 }
