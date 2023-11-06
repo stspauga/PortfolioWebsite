@@ -26,7 +26,6 @@ app-jumbotron {
   left: 0;
   z-index: 1; /* Ensure jumbotron is above hello */
   max-width: 60vh;
-  
 }
 
 

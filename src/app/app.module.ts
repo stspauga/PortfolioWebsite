@@ -11,6 +11,7 @@ import { faBars as faS} from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn as LinkedinIn, faGithubSquare as GitHubSq, faFacebookSquare as FBSq, faInstagramSquare as ISq } from '@fortawesome/free-brands-svg-icons';
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
 import { CurrentJobComponent } from './current-job/current-job.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CurrentJobComponent } from './current-job/current-job.component';
     AboutMeComponent,
     HelloComponent,
     JumbotronComponent,
-    CurrentJobComponent
+    CurrentJobComponent,
+    SkillsComponent
   ],
   imports: [
     FontAwesomeModule,

@@ -1,0 +1,38 @@
+.skills-wrapper {
+   justify-content: center;
+   margin-top: 5vh;
+   padding-bottom: 5vh;
+   
+}
+
+.skills-header {
+    margin-top: 3vh;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    padding-bottom: 2vh;
+}
+
+.skills-header hr {
+    display: inline-block;
+    width: 10vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    border-top: 5px solid black; 
+}
+
+.skills-table-wrapper {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.skills {
+    margin-left: 2vh;
+    border: solid 2px white;
+    border-radius: 30px;
+    text-align: center;
+    max-width: 25vh;
+    padding: 1vh;
+    box-shadow: 3px 3px #F5F5DC;
+}

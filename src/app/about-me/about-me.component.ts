@@ -9,7 +9,7 @@ const description: string = "Hello there! I'm Tuli, a proud husband and father, 
                             "With a deep interest in technology and a commitment to excellence, " +
                             "I am poised to make significant contributions in the field of software engineering.";
 
-const aboutMeHeader: string = "ABOUT ME";
+const aboutMeHeader: string = "About Me";
 
 export interface SkillsColumn {
   col_one: string;
