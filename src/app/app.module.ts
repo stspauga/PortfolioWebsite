@@ -13,6 +13,7 @@ import { JumbotronComponent } from './jumbotron/jumbotron.component';
 import { CurrentJobComponent } from './current-job/current-job.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ExperienceComponent } from './experience/experience.component';
     JumbotronComponent,
     CurrentJobComponent,
     SkillsComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    PageNotFoundComponent
   ],
   imports: [
     FontAwesomeModule,
