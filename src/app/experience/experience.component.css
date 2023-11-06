@@ -1,4 +1,52 @@
-h1 {
-    padding-top: 30vh;
-    font-size: 80vh;
+.experience-wrapper {
+    padding: 10vh;
+    background-color: #dcd9c4;
+}
+
+.experience-header {
+    font-size: 10vh;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+.experiences {
+    border: solid 4px black;
+    border-radius: 10px;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    min-width: 30vh;
+    max-width: 50vh;
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+    text-align: center;
+    min-height: 40vh;
+    margin: auto;
+    background-color: #e8e6dd;
+}
+
+.exp-pic {
+    display: block;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 3vh;
+    max-height: 5vh;
+}
+
+.job-title {
+    font-weight: 600;
+    display: block;
+}
+
+.date {
+    font-style: italic;
+    display: block;
+}
+
+.company {
+    text-decoration: underline;
+}
+
+.detail {
+    display: block;
+    text-align: left;
 }

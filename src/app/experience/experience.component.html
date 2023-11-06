@@ -1,1 +1,20 @@
-<h1>TEST</h1>
+<div class="experience-wrapper">
+    <div class="experience-header">
+        <hr>EXPERIENCE<hr>
+    </div>
+    <div class="experience-table-wrapper">
+        <div class="row">
+            <div *ngFor= "let exp of experience; let i = index" class="experiences col-xl">
+                <span><img src={{exp.pic}} class="exp-pic"></span>
+                <span class="job-title"> {{ exp.jobTitle }} </span> 
+                <span class="company"> {{ exp.companyName }} </span>
+                <span class="date"> {{ exp.date }} </span>
+                <span class="detail"> {{ exp.detail1 }} </span>
+                <span class="detail"> {{ exp.detail2 }} </span>
+                <span class="detail"> {{ exp.detail3 }} </span>
+                <span class="detail"> {{ exp.detail4 }} </span>
+            </div>
+        </div>
+    </div>
+</div>
+
