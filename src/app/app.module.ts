@@ -14,6 +14,8 @@ import { CurrentJobComponent } from './current-job/current-job.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { HomeComponent } from './home/home.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     CurrentJobComponent,
     SkillsComponent,
     ExperienceComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    HomeComponent,
+    NavbarComponent
   ],
   imports: [
     FontAwesomeModule,
