@@ -36,11 +36,13 @@ const experience: experiences[] = [
     detail2: '- Diagnosed and repaired malfunctioning modules, ensuring seamless functionality and a smooth learning experience for users, delivering about 2 - 3 modules a week.'
   }
 ]
+
 @Component({
   selector: 'app-experience',
   templateUrl: './experience.component.html',
   styleUrls: ['./experience.component.css']
 })
+
 export class ExperienceComponent {
   experience = experience;
 }
