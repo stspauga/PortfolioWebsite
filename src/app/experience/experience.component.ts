@@ -34,6 +34,20 @@ const experience: experiences[] = [
     location: 'Canada (Remote)',
     detail1: '- Translated upper-level high school math curriculum from textbooks into web modules, utilizing HTML, CSS, JavaScript and PHP for database integration.',
     detail2: '- Diagnosed and repaired malfunctioning modules, ensuring seamless functionality and a smooth learning experience for users, delivering about 2 - 3 modules a week.'
+  },
+  { pic: 'assets/PA.png',
+    jobTitle: 'IT Technical Specialist',
+    companyName: 'Ports America',
+    date: 'September 2022 - MAy 2023',
+    location: 'Chandler, AZ',
+    detail1: '- Oversaw a dynamic office environment for 50-75 users, addressing Windows OS issues, streamlining onboarding, and troubleshooting connectivity. Proficient in command-line solutions, managed hardware inventory, optimized resource allocation, and ensured timely upgrades.',
+  },
+  { pic: 'assets/microsoft.jpeg',
+    jobTitle: 'IT Support',
+    companyName: 'Microsoft',
+    date: 'June 2021 - July 2022',
+    location: 'Tempe, AZ',
+    detail1: '- Proficiently supported 8-10 individuals in 6-hour shifts, resolving technical issues on Linux, Mac OS, and Windows systems.',
   }
 ]
 

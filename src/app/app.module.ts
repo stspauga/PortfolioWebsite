@@ -4,7 +4,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatTableModule } from '@angular/material/table';
 import { HelloComponent } from './hello/hello.component';
 import { FaIconLibrary, FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faBars as faS} from '@fortawesome/free-solid-svg-icons';
@@ -16,6 +15,9 @@ import { ExperienceComponent } from './experience/experience.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ContactComponent } from './contact/contact.component';
+import { ReactiveFormsModule } from '@angular/forms'; 
+import { FormsModule } from '@angular/forms'; 
 
 @NgModule({
   declarations: [
@@ -30,13 +32,15 @@ import { NavbarComponent } from './navbar/navbar.component';
     HomeComponent,
     NavbarComponent,
     SkillsComponent,
+    ContactComponent,
   ],
   imports: [
     FontAwesomeModule,
-    MatTableModule,
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
