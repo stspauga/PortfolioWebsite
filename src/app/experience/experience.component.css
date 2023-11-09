@@ -10,18 +10,15 @@
 }
 
 .experiences {
-    border: solid 4px black;
     border-radius: 10px;
-    margin-left: 1vh;
-    margin-right: 1vh;
-    min-width: 30vh;
-    max-width: 50vh;
+    min-width: 100%;
     padding-top: 3vh;
     padding-bottom: 1vh;
     text-align: center;
-    min-height: 40vh;
-    margin: auto;
-    background-color: #e8e6dd;
+    box-shadow: 5px 5px 5px #000000;
+    color: white;
+    margin-top: 3vh;
+    background-color: #004080;
 }
 
 .exp-pic {

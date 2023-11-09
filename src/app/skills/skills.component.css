@@ -21,7 +21,7 @@
     border-top: 5px solid black; 
 }
 
-.skills-table-wrapper {
+.container-fluid {
     display: flex;
     justify-content: center;
     
