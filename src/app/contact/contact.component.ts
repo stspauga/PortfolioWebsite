@@ -6,12 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.css'],
 })
 export class ContactComponent {
-submitForm() {
-throw new Error('Method not implemented.');
-}
   firstName: string = '';
   lastName: string = '';
   email: string = '';
   message: string = '';
+
+  submitForm() {
+    throw new Error('Method not implemented.');
+    }
 }
 
