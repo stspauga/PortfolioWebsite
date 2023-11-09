@@ -17,7 +17,9 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ContactComponent } from './contact/contact.component';
 import { ReactiveFormsModule } from '@angular/forms'; 
-import { FormsModule } from '@angular/forms'; 
+import { FormsModule } from '@angular/forms';
+import { ProjectsComponent } from './projects/projects.component';
+import { EffortLoggerComponent } from './effort-logger/effort-logger.component'; 
 
 @NgModule({
   declarations: [
@@ -33,6 +35,8 @@ import { FormsModule } from '@angular/forms';
     NavbarComponent,
     SkillsComponent,
     ContactComponent,
+    ProjectsComponent,
+    EffortLoggerComponent,
   ],
   imports: [
     FontAwesomeModule,

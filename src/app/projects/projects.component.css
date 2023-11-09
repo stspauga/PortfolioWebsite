@@ -1,0 +1,38 @@
+.projects-wrapper {
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.projects-header {
+    font-size: 10vh;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+.projects-list {
+    display: block;
+}
+
+.name {
+    display: block;
+}
+
+.languages {
+    display: block;
+}
+
+.frameworks {
+    display: block;
+}
+
+.details {
+    display: block;
+}
+
+.projImg img {
+    height: 100%;
+    width: auto;
+    max-height: 30vh;
+    object-fit: cover;
+  }
