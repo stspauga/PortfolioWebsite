@@ -12,10 +12,15 @@
 
 .projects-list {
     display: block;
+    border: solid 2px #000000;
+    box-shadow: 3px 3px 3px 0px #000000;
+    border-radius: 5px;
+    margin-left: 10vh;
 }
 
 .name {
     display: block;
+    font-weight: 600;
 }
 
 .languages {
@@ -28,6 +33,7 @@
 
 .details {
     display: block;
+    text-align: left;
 }
 
 .projImg img {

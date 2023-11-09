@@ -3,13 +3,13 @@
         <hr>PROJECTS<hr>
     </div>
     <div class="row">
-        <div *ngFor = "let proj of projectList" class="project-list col-md" (mouseover)= "changeImage(proj.image)">
-            <a routerLink="/effort-logger">{{proj.name}}</a>
+        <div *ngFor = "let proj of projectList" class="projects-list col-md" (mouseover)= "changeImage(proj.image)">
+            <a routerLink="/effort-logger" class="name">{{proj.name}}</a>
             <div class="languages">
-                <span>{{proj.languages?.lang1}}</span>
-                <span>{{proj.languages?.lang2}}</span>
-                <span>{{proj.languages?.lang3}}</span>
-                <span>{{proj.languages?.lang4}}</span>
+                <span> {{proj.languages?.lang1}}</span>
+                <span> {{proj.languages?.lang2}}</span>
+                <span> {{proj.languages?.lang3}}</span>
+                <span> {{proj.languages?.lang4}}</span>
             </div>
             <div class="frameworks">
                 <span>{{proj.frameworks?.frame1}}</span>
