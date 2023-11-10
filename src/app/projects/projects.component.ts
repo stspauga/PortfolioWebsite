@@ -38,7 +38,7 @@ const projectList: projects[] = [
 })
 export class ProjectsComponent {
   projectList = projectList;
-  currentImage: string = '/assets/ASU.png';
+  currentImage: string = '/assets/placeholder.gif';
 
   changeImage(newImage: string): void {
     this.currentImage = newImage;
