@@ -11,6 +11,8 @@
     text-align: center;
     color: white;
     padding-bottom: 2vh;
+    /* font-weight: 600; */
+    
 }
 
 .skills-header hr {
@@ -21,10 +23,9 @@
     border-top: 5px solid black; 
 }
 
-.container-fluid {
+.container {
     display: flex;
     justify-content: center;
-    
 }
 
 .skills {
@@ -34,5 +35,7 @@
     text-align: center;
     max-width: 25vh;
     padding: 1vh;
-    box-shadow: 3px 3px #F5F5DC;
+    box-shadow: 3px 3px 3px #5a5a5a;
+    margin-top: 1vh;
+    color: white;
 }

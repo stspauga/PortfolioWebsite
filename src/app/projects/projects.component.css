@@ -41,4 +41,6 @@
     width: auto;
     max-height: 30vh;
     object-fit: cover;
+    border: solid 2px #000000;
+    border-radius: 15px;
   }

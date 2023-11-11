@@ -19,7 +19,8 @@ import { ContactComponent } from './contact/contact.component';
 import { ReactiveFormsModule } from '@angular/forms'; 
 import { FormsModule } from '@angular/forms';
 import { ProjectsComponent } from './projects/projects.component';
-import { EffortLoggerComponent } from './effort-logger/effort-logger.component'; 
+import { EffortLoggerComponent } from './effort-logger/effort-logger.component';
+import { PdfResumeDownloadComponent } from './pdf-resume-download/pdf-resume-download.component'; 
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { EffortLoggerComponent } from './effort-logger/effort-logger.component';
     ContactComponent,
     ProjectsComponent,
     EffortLoggerComponent,
+    PdfResumeDownloadComponent,
   ],
   imports: [
     FontAwesomeModule,
