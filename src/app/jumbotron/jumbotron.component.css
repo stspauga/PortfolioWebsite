@@ -3,6 +3,7 @@
     background-size: cover; /* This ensures the entire background is covered */
     background-position: center; /* This centers the background image */
     background-repeat: no-repeat; 
+    display: flex;
 }
 .jumbotron {
     padding-top: 15vh;
@@ -22,6 +23,7 @@
 .lead {
     margin-top: 5vh;
     color: white;
+    display: flex;
 }
 
 .anotherlead {
@@ -38,8 +40,3 @@
     border: none;
 }
 
-.button-wrapper {
-    display: flex;
-    justify-content: right;
-    margin-right: 3vh;
-}

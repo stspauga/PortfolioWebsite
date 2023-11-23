@@ -2,29 +2,20 @@
     <div class="projects-header">
         <hr>PROJECTS<hr>
     </div>
-    <div class="row">
-        <div *ngFor = "let proj of projectList" class="projects-list col-md" (mouseover)= "changeImage(proj.image)">
-            <a routerLink="/effort-logger" class="name">{{proj.name}}</a>
-            <div class="languages">
-                <span> {{proj.languages?.lang1}}</span>
-                <span> {{proj.languages?.lang2}}</span>
-                <span> {{proj.languages?.lang3}}</span>
-                <span> {{proj.languages?.lang4}}</span>
+    <div class="container">
+        <div class="card" style="--clr: #0096688">
+            <div class="img-box">
+                <img src="/assets/EffortLogger.gif">
             </div>
-            <div class="frameworks">
-                <span>{{proj.frameworks?.frame1}}</span>
-                <span>{{proj.frameworks?.frame2}}</span>
-                <span>{{proj.frameworks?.frame3}}</span>
-                <span>{{proj.frameworks?.frame4}}</span>
+            <div class="content">
+                <h2>Effort Logger</h2>
+                <p>
+                    Created a school project that tracks user data 
+                    across a private firm, enables privacy data 
+                    and upgrades previous versions of the app!
+                </p>
+                <a href="https://github.com/stspauga/EffortLogger" target="_blank">Take me to GitHub repo!</a>
             </div>
-            <div class="details">
-                <span>{{proj.detail1}}</span>
-                <span>{{proj.detail2}}</span>
-                <span>{{proj.detail3}}</span>
-            </div>
-        </div>
-        <div class="col-md-6 projImg">
-            <img [src]="currentImage" alt="Project Image">
         </div>
     </div>
 </div>

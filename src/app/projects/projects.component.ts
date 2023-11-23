@@ -26,7 +26,7 @@ type projects = {
 }
 
 const projectList: projects[] = [
-  { name: 'Effort Logger', image: '/assets/EffortLogger.png', languages: { lang1: 'Java', lang2: 'JavaFX'}, detail1: '- Created a school project that tracks user data across a private firm, enables privacy data and upgrades previous versions of the app'}
+  { name: 'Effort Logger', image: '/assets/EffortLogger.gif', languages: { lang1: 'Java', lang2: 'JavaFX'}, detail1: '- Created a school project that tracks user data across a private firm, enables privacy data and upgrades previous versions of the app'}
 ]
 
 
