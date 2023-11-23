@@ -1,0 +1,17 @@
+.resumeWrapper {
+    justify-content: center;
+}
+
+.resumeDownload {
+    min-height: 5vh;
+    border: none;
+    border-radius: 10px;
+    background-color: #213e60;
+    color: white;
+    transition: transform 0.1s ease-in-out;
+    margin-left: 3vw;
+}
+
+.resumeDownload:hover {
+    transform: scale(10px);
+}
