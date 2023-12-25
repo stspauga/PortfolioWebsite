@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+
+const submitMessage = document.getElementById('submitMessage');
+
+
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
@@ -10,7 +14,12 @@ export class ContactComponent {
   email: string = '';
   message: string = '';
 
-submitForm() {
+
+  isActiveOne: boolean = false;
+  isActiveTwo: boolean = true;
+  submitForm() {
+    this.isActiveOne = !this.isActiveOne;
+    
   }
 }
 
