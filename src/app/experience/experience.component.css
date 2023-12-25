@@ -1,6 +1,6 @@
 .experience-wrapper {
     padding: 10vh;
-    background-color: #CAB29F;
+    background-color: #DABC94;
 }
 
 .experience-header {
@@ -16,11 +16,12 @@
     padding-top: 3vh;
     padding-bottom: 1vh;
     text-align: center;
-    border: solid 4px #444444;
+    /* border: solid 4px #444444; */
     border-radius: 20px;
-    color: white;
+    background-color: #f6ede4;
     margin-top: 3vh;
     color: black;
+    max-width: 40vw;
 }
 
 .exp-pic {
